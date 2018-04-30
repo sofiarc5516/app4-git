@@ -1,0 +1,285 @@
+﻿<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+    
+<meta charset="utf-8">
+<title>	Contaminacion en mi comunidad</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app4.min.css">
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript -->
+<script src="js/jquery-1.11.2.min.js"> </script>
+<script src="js/jquery.mobile-1.4.5.min.js"> </script>
+<script src="js/acciones.js" type="text/javascript"></script>
+<script src="phonegap.js"></script> <!--necesario*/ -->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/banner2.jpg','imagenes/bicihipy4.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Contaminación  en mi comunidad</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Mi Comunidad</h1>
+<div><br>
+</div>
+<div><img src="imagenes/tochimilco.jpg" width="70%" height="70%"></div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><strong>Definición</strong></a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2><strong>Tipos  de contaminación</strong></h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2><strong>Consecuencias</strong></h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2><strong>Reciclaje</strong></h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2><strong>5  Medidas para combatir la contaminación </strong></h2>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/recycle.png" width="46" height="46">
+</div>
+<h4>Aplicacion Cuatro</h4>
+<h4>Ramos Contla Sofia</h4>
+</div>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" dat-back-btn-text="Regresar" data-theme="b">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+		<h1><strong>Definición</strong>De Contaminación</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>La&nbsp;<strong>contaminación</strong>&nbsp;es la introducción de  sustancias u otros elementos físicos en un medio que provocan que éste sea  inseguro o no apto para su uso. El medio puede ser un ecosistema, un medio físico o un ser vivo.  El contaminante pued ser una sustancia química,energía(como sonido,calor,luzoradiactividad).<br>
+  Es siempre una alteración negativa  del estado natural del medio,  y por lo general, se genera como consecuencia de la actividad humana  considerándose una forma de impacto  ambiental.</p>
+<div>
+  <div> 
+    <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Images','','imagenes/BasuraCalle2.jpg',1)"><img src="imagenes/BasuraCalle.jpg" alt="" width="60%" height="60%" id="Images"></a></p>
+    <div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/poblemassalud.jpg" alt="PoblemasSalud" title="PoblemasSalud" id="wows1_0"/></li>
+		<li><img src="data1/images/basurapublico.jpg" alt="BasuraPublico" title="BasuraPublico" id="wows1_1"/></li>
+		<li><img src="data1/images/contsonido.jpg" alt="ContSonido" title="ContSonido" id="wows1_2"/></li>
+		<li><img src="data1/images/contsuelo.jpg" alt="ContSuelo" title="ContSuelo" id="wows1_3"/></li>
+		<li><img src="data1/images/contvisual.jpg" alt="ContVisual" title="ContVisual" id="wows1_4"/></li>
+		<li><img src="data1/images/contnuclear.jpg" alt="ContNuclear" title="ContNuclear" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/rrr.jpg" alt="slider" title="RRR" id="wows1_6"/></a></li>
+		<li><img src="data1/images/contenedores.jpg" alt="Contenedores" title="Contenedores" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="PoblemasSalud"><span><img src="data1/tooltips/poblemassalud.jpg" alt="PoblemasSalud"/>1</span></a>
+		<a href="#" title="BasuraPublico"><span><img src="data1/tooltips/basurapublico.jpg" alt="BasuraPublico"/>2</span></a>
+		<a href="#" title="ContSonido"><span><img src="data1/tooltips/contsonido.jpg" alt="ContSonido"/>3</span></a>
+		<a href="#" title="ContSuelo"><span><img src="data1/tooltips/contsuelo.jpg" alt="ContSuelo"/>4</span></a>
+		<a href="#" title="ContVisual"><span><img src="data1/tooltips/contvisual.jpg" alt="ContVisual"/>5</span></a>
+		<a href="#" title="ContNuclear"><span><img src="data1/tooltips/contnuclear.jpg" alt="ContNuclear"/>6</span></a>
+		<a href="#" title="RRR"><span><img src="data1/tooltips/rrr.jpg" alt="RRR"/>7</span></a>
+		<a href="#" title="Contenedores"><span><img src="data1/tooltips/contenedores.jpg" alt="Contenedores"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+</div>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/recycle.png" width="46" height="46">
+</div>
+<h4>Aplicacion Cuatro, RCS</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header"  data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1><strong>Tipos  de contaminación</strong></h1>
+</div>
+<div data-role="content" align="center">
+<div>
+  <p><strong>Contaminación atmosférica</strong><br>
+    La  más conocida, es el tipo de contaminación que surge de la liberación de  partículas de sustancias químicas a la atmósfera. También conocida como  polución, es el tipo de contaminación que afecta a través del aire.  Uno de los contaminantes más conocidos en este sentido son el CO2, el metano y  el humo proveniente de la combustión.</p>
+  <p><img src="imagenes/ContAtmosferica.jpg" height="60%" width="60%"></p>
+  <p><strong>Contaminación hídrica</strong></p>
+  <p>Se trata del efecto de la emisión y liberación en las aguas de  sustancias contaminantes. Se dificulta o altera la vida y el uso normativo,  haciéndola no potable.Habitualmente esta contaminación es de origen  industrial. Incluye la contaminación marítima, la cual haría referencia a  la contaminación de los mares y océanos por la misma causa</p>
+  <p><img src="imagenes/ContHidrica.jpg" width="60%" height="60%"></p>
+  <p><strong>Contaminación del suelo y del subsuelo</strong></p>
+  <p>Provocada por la filtración de sustancias en el suelo, genera alteraciones  físicas y químicas en éste que hacen que por ejemplo resulte inhabitable,  se contaminen las aguas subterráneas o se imposibilite el crecimiento de vida  en el área.</p>
+  <p><img src="imagenes/ContSuelo.jpg" width="60%" height="60%"></p>
+  <p><strong>Contaminación radiactiva</strong><br>
+    Se trata de uno de los tipos de contaminación más peligrosos  y agresivos con la vida. Es producida por la liberación de material radiactivo  y tiene efecto en cualquier superficie.Suele derivarse de la acción  humana, como el vertido de residuos o desastres en plantas de energía  nuclear como el de Chernobyl.</p>
+  <p><img src="imagenes/ContNuclear.jpg" height="60%" width="60%"></p>
+  <p><strong>Contaminación térmica</strong><br>
+    Uno de los tipos de contaminación menos conocidos, es  generado por el cambio de temperatura en el entorno o en diferentes medios  debido a la actividad humana.</p>
+  <p><strong>Contaminación visual</strong><br>
+    A pesar de que en principio el concepto pueda asemejarse al  de la contaminación lumínica, en este caso se hace referencia a la alteración  del medio en base a estímulos visuales que no tienen que ver con la  luminosidad. Por ejemplo, se refiere a los cambios visuales que se producen  en la naturaleza debido a la actividad humana.</p>
+  <p><img src="imagenes/ContVisual.jpg" width="60%" height="60%"></p>
+  <p><strong>Contaminación lumínica</strong><br>
+    Se trata de uno de los tipos de contaminación en la que el  elemento contaminante es visual. la contaminación lumínica el elemento  contaminante en sí es la emisión de luz fuera de lo que sería natural,  provocando problemas como la pérdida de orientación o los cambios en  los biorritmostanto de seres humanos como de otros animales.</p>
+  <p><strong>Contaminación acústica</strong><br>
+    Denominamos contaminación acústica a la emisión de sonido en  una proporción, frecuencia, tono, volumen y ritmo excesivos que provocan una  alteración en el medio o en los seres que lo habitan. Este tipo de  contaminación es el que viven, por ejemplo, aquellas personas que viven en  barrios muy turísticos en los que hay multitud de discotecas y establecimientos  con música.</p>
+  <p><img src="imagenes/ContSonido.jpg" width="60%" height="60%"></p> 
+  <p><strong>Contaminación  electromagnética</strong><br>
+    Aunque tal ves no es tan perceptible de manera directa por  los seres humanos, se refiere a la contaminación derivada del uso de  elementos eléctricoso que generen fenómenos electromagnéticos. Pueden  generar desorientación y posibles daños en diferentes animales, y los efectos  sobre los seres humanos aún son discutidos (vinculándose en ocasiones al  cáncer, trastornos de la erección o algunos problemas mentales y físicos).</p>
+  <p><strong>Contaminación alimentaria</strong><br>
+    Se refiere a la presencia de diferentes sustancias en los  alimentos que provocan efectos de diferente envergadura en quienes lo  consumen. Por ejemplo, la contaminación del pescado por el mercurio  proveniente de la contaminación hídrica o la provocada por la venta de  alimentos en mal estado o infectados de alguna enfermedad.</p>
+  <p><img src="imagenes/ContAlimentaria.jpg" width="60%" height="60%"></p>
+</div>
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+  <p><img src="imagenes/recycle.png" width="46" height="46"></p>
+</div>
+<h4>Aplicacion Cuatro, RCS</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header"  data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1><strong>Consecuencias</strong> de la Contaminación</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>La contaminacion como todo tiene consecuencias algunas son:</h2>
+<ul type="disc">
+  <li><strong>Problemas       para la salud</strong>: la       contaminación hace que las personas estemos cada vez más expuestas a       padecer problemas cardiovasculares, con el grave peligro que esto entraña       para nuestra salud y vida.</li>
+</ul><p>
+<img src="imagenes/PoblemasSalud.jpg" height="60%" width="60%"></p>
+<ul type="disc">
+  <li><strong>Debilitamiento       de la capa de ozono:</strong>&nbsp;la capa de ozono es la que nos protege       de los rayos del Sol, los cuales pueden llegar a ser mortíferos sin esta       capa. la consecuencia de este debilitamiento es que cada vez nos protege       menos y, por ende, cada vez tenemos una mayor temperatura en el planeta.       Esto no solo hace que cada vez haya más zonas desiertas en las que es       imposible vivir, sino que también hace que el hielo en los polos se       deshaga y mueran muchas especies por ello. No hace falta mencionar que       esto hace subir indudablemente el nivel del mar y que, de seguir así,       muchas ciudades costeras se verán arrasadas, quedándose sin playas y sin       zona costera.</li>
+</ul><p>
+<img src="imagenes/TierraMuriendo.jpg" width="60%" height="60%">
+<ul type="disc">
+  <li><strong>La       contaminación afecta al suelo y al agua</strong>: la contaminación al medio ambiente afecta al       agua y al suelo, lo que hace que cada vez haya más especies en peligro de       extinción. El agua no es potable en una gran cantidad de sitios y el suelo       para la siembre no tiene los nutrientes necesarios, lo que hace que cada       vez se pueda cultivar menos y que el número de cosechas para nuestro       sustento sea cada vez menor.</li><img src="imagenes/AfectaSuelo.jpg" width="60%" height="60%">
+  <li> <strong>La contaminación afecta al clima</strong>: seguro que ya te has dado cuenta que los  inviernos pueden ser mucho más fríos o que los veranos son mucho más calurosos,  a la vez que seguro te has dado cuenta que las estaciones como la Primavera  Verano y el verano pueden ser más largas y que las de temperaturas medias, son  cada vez más cortas. Todos estos cambios y los fenómenos que no se habían visto  desde &nbsp;hace mucho tiempo o incluso nunca se habían visto son causados por  la contaminación.</li>
+  <img src="imagenes/Clima.jpg" height="60%" width="60%">
+</ul>
+</div>
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/recycle.png" width="46" height="46">
+</div>
+<h4>Aplicacion Cuatro, RCS</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1><strong>Reciclaje</strong></h1></div>
+<div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false"></h1>
+    <h1>Ejemplos de Contenedores</h1>
+    <div>
+      <div> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','imagenes/ContenedorReciclaje.jpg',1)"><img src="imagenes/Contenedores.jpg" alt="" width="60%" height="60%" id="Image3"></a></div>
+      </div></div>
+  <p>El <strong>reciclaje</strong> es un proceso  cuyo objetivo es convertir desechos en nuevos productos o en materia para su posterior  utilización</p>
+  <p>Para el reciclaje se usa una&quot;cadena&quot; la cual es la siguiente:</p>
+  <ul>
+    <li><strong>Recuperación o recogida:</strong>&nbsp;que  puede ser realizada por empresas públicas o privadas. Consiste únicamente en la  recolección y transporte de los residuos hacia el siguiente eslabón de la  cadena. Se utilizan contenedores urbanos de recogida selectiva (contenedores  amarillo, verde, azul, gris y marrón).</li>
+    <li><strong>Plantas de transferencia:</strong>&nbsp;se  trata de un eslabón o voluntario que no siempre se usa. Aquí se mezclan los  residuos para realizar transportes mayores a menor costo (usando contenedores  más grandes o compactadores más potentes).</li>
+    <li><strong>Plantas de clasificación (o separación):</strong>&nbsp;donde  se clasifican los residuos y se separan los valorizables. Residuos que sí  pueden reciclarse de los que no. La fracción que no puede reciclarse se lleva a  aprovechamiento energético o a vertederos.</li>
+    <li><strong>Reciclador final (o planta de valoración):</strong>&nbsp;donde  finalmente los residuos se reciclan (papeleras, plastiqueros, etc.), se  almacenan (vertederos) o se usan para producción de energía (cementeras,  biogás, etc.).</li>
+  </ul>
+  <p>Para  la separación en origen doméstico se usan contenedores de distintos  colores ubicados en entornos urbanos o rurales:</p></ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/recycle.png" width="46" height="46">
+</div>
+<h4> Aplicacion Cuato, RCS</h4>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1><strong>5  Medidas para combatir la contaminación </strong></h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Nosotros podemos contibuir a la disminución de basura de la siguiente manera:</h2>
+<p><strong>Ahorra energía en la casa.</strong> Apaga las luces, los  ventiladores, los televisores y otros electrodomésticos cuando no los estés  usando. Estate atento cuando cargues tu celular, cámara fotográfica o laptop, y  desenchufa la batería cuando haya terminado la carga. Usa bombillas compactas  fluorescentes en lugar de bombillas estándar y utiliza microondas en lugar del  horno para calentar objetos pequeños.</p>
+<p><strong>Cuida tu auto.</strong> Lleva tu auto al mecánico para que le hagan un adecuado  mantenimiento en el momento que lo requiera. No solo lo mantendrás en buenas  condiciones, sino que evitarás la contaminación del aire. Asegúrate de utilizar  gas natural (GNV), es más liviano que el aire y en caso de producirse una fuga  éste se eleva más rápido, disminuyendo la posibilidad de sufrir un accidente.  Utiliza medios de transporte alternativos, como la bicicleta, el transporte  público (metropolitano, tren eléctrico, etc.) o incluso, evalúa la posibilidad  de caminar, es una buena opción si el lugar al que te diriges te queda cerca. </p>
+<p><strong>Utiliza fuente de energía alternativa.</strong>Otra forma de evitar la  contaminación del aire es el uso de fuentes de energía alternativas como la  energía solar, la hidroeléctrica o la eólica. Éstas son seguras y libres de  contaminantes y no son consideradas nocivas para la salud.</p>
+<p><img src="imagenes/EnergiaEolica.jpg" width="60%" height="60%"></p>
+<p><strong>Recicla.</strong> Reutiliza papeles, cartones, cajas, envases de vidrio, etc., para  reducir la cantidad de residuos. Procura no pedir bolsas de plástico, sobre  todo si lo que vas a llevar te alcanzan en las manos. Otra opción es llevar tus  propias bolsas, si lo vas a hacer, de preferencia que sean bolsas de tela o  biodegradables</p>
+<p><strong>Cambia tus hábitos de compra.</strong>Prepara tus alimentos en vez de comprar comida empaquetada. Compra  productos locales y de temporada, de esta manera, vas a contribuir con el medio  ambiente, mientras te alimentas con productos más saludables.</p>
+<p><strong>Tambien se puede ayudar apkicanco las tres "R"</strong></p>
+<ul>
+  <li><strong>Reducir</strong>: acciones para reducir la  producción de objetos susceptibles de convertirse en residuos, con medidas de  compra racional, uso adecuado de los productos, compra de productos  sostenibles.</li>
+  <li><strong>Reciclar</strong>: el conjunto de operaciones de recogida y tratamiento de  residuos que permiten reintroducirlos en un ciclo de vida. Se utiliza la separación  de residuos en origen para facilitar los canales adecuados.</li>
+  <li><strong>Reutiliza</strong>: acciones que permiten el volver a usar un  determinado producto para darle una segunda vida, con el mismo uso u otro  diferente. Medidas encaminadas a la reparación de productos y alargar su vida  útil</li>
+</ul>
+Da clic sobre la imagen si quieres saber mas
+<p><a href="https://www.ecoembes.com/es/ciudadanos/envases-y-proceso-reciclaje/como-reciclar-bien" target="_self" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image42','','imagenes/RRR.jpg',1)"><img src="imagenes/RRR.jpg" width="60%" height="60%" id="Image42"></a></p>
+</div>
+</div> 
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/recycle.png" width="46" height="46">
+</div>
+<h4> Aplicacion Cuato, RCS</h4>
+</div>
+</div>
+
+</body>
+</html>
